@@ -1,0 +1,20 @@
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=addcpp
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0c\x00a\x00d\x00d\x00c\x00p\x00p\x00\x00\x00\x0c\x00a\x00d\x00d\x00c\x00p\x00p)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/pbyri/workspaces/cpp/Repo_Test1/addcpp/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=addcpp,addcpp
+Use External Terminal=false
+Working Directory=
+isExecutable=false
