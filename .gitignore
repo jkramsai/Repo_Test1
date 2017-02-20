@@ -1,5 +1,5 @@
 addcpp/build/
-addcpp/addcpp.kdev4
+addcpp/*.kdev4
 addcpp/build/*
 
 
