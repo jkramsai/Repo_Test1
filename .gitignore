@@ -1,0 +1,5 @@
+addcpp/build/
+addcpp/*.kdev4
+addcpp/build/*
+
+
